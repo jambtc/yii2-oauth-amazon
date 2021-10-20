@@ -63,6 +63,16 @@ class amazon extends \yii\base\Widget
                 ';
     }
 
+    public function logoutButton(){
+        return '<a id="amazon-logout">Logout</a>
+
+        <script type="text/javascript">
+          document.getElementById("amazon-logout").onclick = function() {
+             amazon.Login.logout();
+          };
+        </script>';
+    }
+
     public function checkAmazonAuthorization() {
         // verify that the access token belongs to us
         $c = curl_init('https://api.amazon.com/auth/o2/tokeninfo?access_token=' . urlencode($_REQUEST['access_token']));
