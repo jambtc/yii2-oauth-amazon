@@ -99,6 +99,5 @@ class amazon extends \yii\base\Widget
         $d = json_decode($r);
 
         return $d;
-
     }
 }
