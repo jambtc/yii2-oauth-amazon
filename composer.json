@@ -1,0 +1,21 @@
+{
+    "name": "jambtc/yii2-oauth-amazon",
+    "description": "yii2 oauth Amazon Authorization Login",
+    "type": "yii2-extension",
+    "keywords": ["yii2","extension"],
+    "license": "GPL-3.0",
+    "authors": [
+        {
+            "name": "Sergio Casizzone",
+            "email": "jambtc@gmail.com"
+        }
+    ],
+    "require": {
+        "yiisoft/yii2": "~2.0.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "jambtc\\oauthamazon\\": ""
+        }
+    }
+}
