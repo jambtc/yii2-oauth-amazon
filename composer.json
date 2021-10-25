@@ -1,4 +1,5 @@
 {
+    "version": "2.0",
     "name": "jambtc/yii2-oauth-amazon",
     "description": "yii2 oauth Amazon Authorization Login",
     "type": "yii2-extension",
